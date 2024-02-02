@@ -5,7 +5,7 @@ from application.config import LocalDevelopmentConfig
 from application.database import db
 from sqlalchemy.orm import scoped_session, sessionmaker
 from application.models import *
-#from flask_login import LoginManager
+
 
 
 
@@ -30,15 +30,6 @@ def create_app():
     return app
 
 app = create_app()
-
-'''login_manager = LoginManager(app)
-login_manager.login_view = 'login'''
-
-'''@login_manager.user_loader
-def load_user(user_id):
-    # Assuming your User model has an 'id' field
-    return User.query.get(int(user_id))'''
-
 
 
 
