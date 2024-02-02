@@ -57,13 +57,7 @@ def process_news_item(item):
             comments_element = subtext_element.find('a', string=lambda s: 'comment' in s.lower())
             comments = int(comments_element.text.split()[0]) if comments_element else 0
            
-          
-            print("Title:", title)
-            print("URL:", url)
-            print("Hacker News URL:", hacker_news_url)
-            print("Posted On:", posted_on)
-            print("Upvotes:", upvotes)
-            print("Comments:", comments)
+   
 
             existing_item = NewsItem.query.filter_by(hacker_news_url=hacker_news_url).first()
 
