@@ -7,7 +7,7 @@
 
  1. Create and activate a virtual environment:  
      
-     1. py -3 -m venv task-env  "you can give any name to the virtual environment" 
+     1. py -3 -m venv task-env  "you can give any name to the virtual environment ,I have use task-env as name just for example purpose " 
      1. cd task-env 
      1. cd Scripts 
      1. .\activate.bat 
