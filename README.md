@@ -31,5 +31,5 @@
 
 
 ### The home page of web app will be available at http://127.0.0.1:5000.
-### A user cannot acces the  mark as read and delete functionality without logging in
+### A user cannot acces the  mark as read and delete functionality without logging in, that is nothing would happen when guest user selects those features
 
