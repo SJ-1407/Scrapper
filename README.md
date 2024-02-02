@@ -7,16 +7,16 @@
 
  1. Create and activate a virtual environment:  
      
-     -py -3 -m venv task-env  "you can give any name to the virtual environment "
-     -cd task-env
-     -cd Scripts
-     -.\activate.bat
+     1. py -3 -m venv task-env  "you can give any name to the virtual environment" 
+     1. cd task-env 
+     1. cd Scripts 
+     1. .\activate.bat 
   
  1. Install dependencies:   
 
     -First go to the directory Scrapper-main:
       
-       -cd 'path to Scrapper-main"
+       1. cd 'path to Scrapper-main"
 
    -then  install the requirements using the command
 
@@ -30,4 +30,6 @@
 
 
 
-##The home page of web app will be available at http://127.0.0.1:5000.
+### The home page of web app will be available at http://127.0.0.1:5000.
+### A user cannot acces the  mark as read and delete functionality without logging in
+
