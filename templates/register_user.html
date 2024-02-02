@@ -70,7 +70,7 @@
     {% if error!="" %}
     <p>{{error}}</p>
     {% endif %}
-    <form method="POST">
+    <form method="POST" action="{{ url_for('register') }}">
         <div class="form-group">
             <label for="username">Username</label>
             <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required>
